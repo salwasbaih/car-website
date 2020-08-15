@@ -1,0 +1,170 @@
+/*
+.owl-carousel  {
+     width: 600px;
+    height: 250px;
+}*/
+nav span , .about span {
+    color: #D15B7A;
+    font-weight: 350;
+   
+}
+.navbar-brand{
+    margin-left: 40px;
+    font-size: 30px;
+   
+        
+}
+.carousel-caption{
+  background: rgba(0,0,0,.7)  ;
+    width: 500px;
+    margin-left: 250px;
+    border-radius: 30px
+}
+.homee{
+     background: #D15B7A;
+      border-radius: 10%;
+     
+}
+.nav-link:hover{
+     color: #D15B7A;
+    background: #D15B7A;
+     border-radius: 10%;
+
+}
+.nav-item{
+    margin-left: 15px;
+}
+.about span{
+     font-size: 60px;
+}
+nav span{
+    font-size: 30px;
+    
+}
+
+.about  img {
+    width: 550px;
+}
+.owl-carousel img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover ;
+ 
+}
+.carousel-inner h5 {
+    color: #D15B7A;
+
+}
+.gallery{
+    background: #3f4441;
+    padding: 20px;
+}
+
+.team{
+      background-image: linear-gradient(to left, rgba(0,0,0,.3), rgba(0,0,0,1));;
+}
+.team h5 {
+    margin-top: 20px;
+}
+
+.team img {
+
+    height: 350px;
+    object-fit: cover;
+}
+
+.con {
+  position: relative;
+ 
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.con:hover .overlay {
+  height: 100%;
+}
+.text {
+  color: #D15B7A;
+  font-size: 40px;
+  position: absolute;
+ top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.tf{
+     
+  left: 40%;
+}
+.tw{
+  
+  left: 60%;
+}
+.deals{
+     background: #3f4441;
+}
+/*
+.carousel-item.active {
+    width: 500px;
+    margin: 50px;
+}
+*/
+.itemm{
+    display: inline-block;
+    width: 600px;
+   margin-left: 300px;
+}
+.back-top{
+    position: fixed;
+    right: 40px;
+    bottom:40px;
+}
+
+.deals .card{
+    border: 0;
+    box-shadow: 0 0 5px white ;
+}
+.deals .col-md-4 img{
+    height: 250px;
+}
+.card-body span{
+    text-decoration: line-through red;
+}
+.form-check-label{
+    display: block;
+}
+.footer a{
+    text-decoration: none;
+   color: #D15B7A;
+  
+}
+.footer p {
+    color: white
+}
+.popularcar img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+.btn-primary{
+    background: #D15B7A;
+    border: 0;
+}
+h2{
+
+    font-family: 'Playfair Display', serif;
+
+}
+.team h2 , .deals h2 , .gallery h2 , .team h5 {
+    color: white;
+}
